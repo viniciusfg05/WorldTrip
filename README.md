@@ -38,6 +38,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Vinicius Ferreira 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Vinicius-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/viniciusfg05)](www.linkedin.com/in/viniciusfg05)
+[![Linkedin Badge](www.linkedin.com/in/viniciusfg05)
 
-[![Gmail Badge](https://img.shields.io/badge/-vinicius.fg05@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vinicius.fg05@gmail.com)](mailto:vinicius.fg05@gmail.com)
+[![Gmail Badge](vinicius.fg05@gmail.com)
