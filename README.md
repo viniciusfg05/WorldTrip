@@ -34,7 +34,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://avatars.githubusercontent.com/u/68232658?v=4">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/68232658?v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Vinicius Ferreira</b></sub></a>
 
