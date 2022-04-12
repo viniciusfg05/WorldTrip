@@ -4,14 +4,12 @@
 
 ## Descrição do Projeto
 
-<p align="center">
-  Aplicação com os cinco continente listando em cada um os paises mais visitados
-  do continente
-</p>
+Aplicação com os cinco continente listando em cada um os paises mais visitados do continente
 
 [Layout do Figma](<https://www.figma.com/file/rj4LHsx3aqVUFDU6zOAVfd/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy)?node-id=14%3A135>)
 
 ## ✅ Status do Projeto
+
 🚧 React Select 🚀 Em construção... 🚧
 
 ## ✅ Features
@@ -40,8 +38,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Vinicius Ferreira 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](www.linkedin.com/in/viniciusfg05)
+[![Linkedin Badge](https://img.shields.io/badge/-Vinicius-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/viniciusfg05)](www.linkedin.com/in/viniciusfg05)
 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:vinicius.fg05@gmail.com)
-
-/aur/license/:packageName
+[![Gmail Badge](https://img.shields.io/badge/-vinicius.fg05@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vinicius.fg05@gmail.com)](mailto:vinicius.fg05@gmail.com)
