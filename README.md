@@ -11,8 +11,8 @@
 
 [Layout do Figma](<https://www.figma.com/file/rj4LHsx3aqVUFDU6zOAVfd/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy)?node-id=14%3A135>)
 
-<h2 align="center">✅ Status do Projeto</h2>
-<h4 align="center">🚧 React Select 🚀 Em construção... 🚧</h4>
+## ✅ Status do Projeto
+🚧 React Select 🚀 Em construção... 🚧
 
 ## ✅ Features
 
