@@ -38,6 +38,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Vinicius Ferreira 👋🏽 Entre em contato!
 
-[![Linkedin Badge](www.linkedin.com/in/viniciusfg05)
+[Linkedin Badge](www.linkedin.com/in/viniciusfg05)
 
-[![Gmail Badge](vinicius.fg05@gmail.com)
+[Gmail Badge](vinicius.fg05@gmail.com)
