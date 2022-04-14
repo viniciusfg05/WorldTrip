@@ -18,8 +18,8 @@ export const ChakraThemeConfig = extendTheme({
     }
   },
   fonts: {
-    body: 'Poppins',
-    Heading: 'Poppins'
+    heading: 'Poppins, sans-serif',
+    body: 'Poppins, sans-serif',
   },
   styles: {
     global: {
