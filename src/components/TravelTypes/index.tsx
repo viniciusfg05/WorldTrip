@@ -3,7 +3,7 @@ import { Box, Text, Flex, Image, SimpleGrid, Link, LinkOverlay  as ChakraLink, u
 
 export function TravelTypes() {
   return (
-    <Flex as="div" w="1160px" my="0" mx="auto">
+    <Flex as="div" w="1160px" my="0" mx="auto" mt="80px">
         <SimpleGrid w="100%" columns={5}>
 
             <ChakraLink href="#" >
