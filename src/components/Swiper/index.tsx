@@ -7,14 +7,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 // import "./styles.css";
+import 'swiper/css/pagination';
 
 import styles from './styles.module.css'
 import {Box, Text, Image, Divider} from "@chakra-ui/react";
+import { ComponentSwiper } from "./SwiperSlide";
+
+
 
 export function CompSwiper() {
   return (
@@ -28,15 +31,17 @@ export function CompSwiper() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className={styles.swiper}
       >
+
         <SwiperSlide className={styles.swiperSlide}>
-          <Image src='Europa.jpg' alt='' filter='auto' brightness='60%'/>
-          <Box pos="absolute" color="#fff" >
-            <Text fontWeight="bold" fontSize="48px">Europa</Text>
-            <Text fontWeight="bold" fontSize="24px">O continente mais antigo</Text>
-          </Box>
+          <ComponentSwiper image={"/Continentes/Africa.jpg"} Continente={"Africa"}
+            ContinentInfo={"O continente africano é o terceiro maior do mundo"}
+          />
         </SwiperSlide>
+
         <SwiperSlide className={styles.swiperSlide}>
-          <Image src='Africa.jpg' alt=''/>
+          <ComponentSwiper image={"/Continentes/Europa.jpg"} Continente={"Europa"}
+            ContinentInfo={"O continente mais antigo"}
+          />
         </SwiperSlide>
 
       </Swiper>

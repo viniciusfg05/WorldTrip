@@ -4,6 +4,7 @@ import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
 import { TravelTypes } from '../components/TravelTypes'
 import { CompSwiper } from '../components/Swiper'
+import { Divide } from '../components/Divide/Index'
 
 const Home: NextPage = () => {
   return (
@@ -12,14 +13,13 @@ const Home: NextPage = () => {
       <Banner/>
       <Flex as="main" direction="column" my="0" w="1440px" mx="auto">
         <TravelTypes/>
-        <Box display="flex" alignItems={'center'} justifyContent="center">
-          <Box borderBottom="3px solid" w="90px" m="80px" borderColor="gray.400" />
-        </Box>
+        <Divide/>
 
         <Box color="gray.600" fontSize="36px" fontWeight="500" textAlign='center' mb="52px">
           <Text>Vamos nessa?</Text>
           <Text>Então escolha seu continente</Text>
         </Box>
+        
         <CompSwiper />
 
         
