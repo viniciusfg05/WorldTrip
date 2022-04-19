@@ -1,0 +1,34 @@
+{
+  "continente": [
+    {
+      "id": 1,
+      "Africa": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes."
+    }
+  ],
+  "africa": [
+    {
+      "id": 1,
+      "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2019/04/viagem-a-africa-do-sul.jpg",
+      "país": "Africa do Sul",
+      "Sobre": "É o país mais ao sul do continente africano, banhado pelos oceanos Atlântico e Índico e com quase 2.800 quilômetros de litoral, que incluem boas praias. A África do Sul é conhecida por sua grande diversidade, tanto de fauna e flora quanto de culturas, idiomas e crenças. A moeda oficial é o rand e o país possui onze línguas oficiais, sendo as mais faladas o zulu, o xhosa e o africâner. O inglês também é um dos idiomas mais falados na região, e é conhecido como a língua do comércio e da ciência. As atrações turísticas mais populares e importantes são as que auxiliam na preservação da natureza, o que inclui ecoturismo e safáris fotográficos. Um exemplo é o Parque Nacional Kruger, um dos mais importantes e com melhor estrutura para turistas. Lá é possível encontrar os animais mais icônicos, como leões, elefantes, leopardos e os rinocerontes. Não deixe de incluí-lo em seu roteiro África do Sul!"
+    },
+    {
+      "id": 2,
+      "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2019/04/viagem-a-africa-mocambique.jpg",
+      "país": "Moçambique",
+      "Sobre": "Moçambique fica no nordeste da África. O país é banhado pelo Oceano Índico e possui quase 30 milhões de habitantes. Grande parte de sua economia é baseada na agricultura, que está crescendo juntamente com o seu potencial turístico. Apesar de o seu Índice de Desenvolvimento Humano (IDH) ser baixo, ele se encontra em rápida ascensão — o que acontece, em parte, por causa dos investimentos que recebe de países como o Brasil, Portugal e a África do Sul. Sua única língua oficial é o português, comumente falado como segunda língua, sendo as mais populares o macua, o tsonga e o sena. A moeda oficial é o metical de Moçambique. Alguns dos destinos mais comuns são o Arquipélago de Bazaruto e o Parque Nacional da Gorongosa, ambos com uma fauna e flora admirável."
+    },
+    {
+      "id": 3,
+      "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2019/04/viagem-a-africa-zimbabwe.jpg",
+      "país": "Zimbabwe",
+      "Sobre": "Neste país de 16 milhões de habitantes, há 16 idiomas oficiais. Os mais populares são o inglês, o shona e o ndebele. Zimbabwe acaba de sair de uma série de crises, instabilidades políticas, econômicas e hiperinflações da última década. Por isso, apesar de o país ainda estar crescendo, a evolução não acontece tão rapidamente quanto em outras nações africanas. A antiga moeda oficial saiu de circulação. Por isso, várias outras são utilizadas, como o dólar americano, o euro e o rand sul africano. Zimbabwe recebe grande atenção por suas artes tradicionais, desde a preservação de pinturas rupestres ao incentivo à escultura, pintura e artesanato."
+    },
+    {
+      "id": 4,
+      "image": "https://www.segurospromo.com.br/blog/wp-content/uploads/2019/04/viagem-a-africa-marrocos.jpg",
+      "país": "Marrocos",
+      "Sobre": "O Reino de Marrocos, como é conhecido oficialmente, é uma monarquia constitucional que fica no Norte da África, com aproximadamente 34 milhões de habitantes. As línguas oficiais são o árabe e um conjunto de línguas berberes, sendo que o árabe possui uma adesão cada vez maior. Sua moeda oficial é o dirham marroquino. O turismo é um dos setores mais importantes de Marrocos, sendo o segundo maior rendimento da economia nacional. Normalmente, os pontos turísticos são focado na cultura, na história do país e em atrações ao longo do litoral. Exemplos de pontos de interesse são as visitas ao Deserto do Saara e à Mesquita Hassan II, em Casablanca, uma das principais cidades do Marrocos."
+    }
+  ]
+}
