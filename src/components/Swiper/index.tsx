@@ -33,7 +33,7 @@ export function CompSwiper() {
       >
 
         <SwiperSlide className={styles.swiperSlide}>
-          <ComponentSwiper image={"/Continentes/Africa.jpg"} Continente={"Africa"}
+          <ComponentSwiper image={"/Continentes/Africa.png"} Continente={"Africa"}
             ContinentInfo={"O continente africano é o terceiro maior do mundo"}
           />
         </SwiperSlide>
