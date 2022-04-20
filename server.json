@@ -1,0 +1,42 @@
+{
+  "continente": [
+    {
+      "id": 1,
+      "Africa": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes."
+    }
+  ],
+  "africa": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "país": "Egipto",
+      "cidade": "Cairo",
+      "Bandeira": "https://www.estudopratico.com.br/wp-content/uploads/2017/04/significado-da-bandeira-egito-1200x675.jpg",
+      "sobre": "Egipto é um país do nordeste da África, numa região predominantemente desértica, que inclui também a península do Sinai, na Ásia, o que o torna um Estado transcontinental. Com uma área de cerca de 1 001 450 km², o Egipto limita-se a oeste com a Líbia, a sul com o Sudão e a leste com a Faixa de Gaza e Israel. O litoral norte é banhado pelo mar Mediterrâneo e o litoral oriental pelo mar Vermelho. A península do Sinai é banhada pelos golfos de Suez e de Acaba. A sua capital é a cidade do Cairo, a maior e mais populosa cidade do país e do continente africano. Visite o Museu Egípcio (um dos maiores museus do Mundo com mais de 100 000 peças expostas), as pirâmides, o mercado Khan-El-Khalili e diversos bazares."
+    },
+    {
+      "id": 2,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2016/03/Cidade-de-Kinshasa.jpg?w=1200&ssl=1",
+      "país": "República Democrática do Congo",
+      "cidade": "Kinshasa",
+      "Bandeira": "https://escudosybanderas.es/images/bandera-de-republica-democratica-del-congo.png",
+      "sobre": "A República Democrática do Congo (anteriormente Zaire) é um país africano. Recentemente passou a ser o segundo maior país da África em questão de área, atrás da Argélia, após a independência do Sudão do Sul em 2011. Confina a norte com a República Centro-Africana e com o Sudão do Sul, a leste com Uganda, Ruanda, Burundi e a Tanzânia, a leste e a sul com a Zâmbia, a sul com Angola e a oeste com o Oceano Atlântico, com o enclave de Cabinda e com o Congo. A capital e maior cidade é Kinshasa. No centro da cidade, erguem-se belos edifícios modernos, parques espaçosos e avenidas largas, que contrastam com os grandes bairros de características africanas à sua volta. Entre as atracções turísticas, avultam o colorido mercado principal, o Museu Nacional e a Academia de Belas-Artes."
+    },
+    {
+      "id": 3,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2015/12/Jemaa-El-fna.jpg?w=800&ssl=1",
+      "país": "Marrocos",
+      "cidade": "Marrakech",
+      "Bandeira": "https://www.futbox.com/img/v1/200/383/a96/ac9/058b184ff883efe0838c.png",
+      "sobre": "Marrocos um país de grandes contrastes, cativante, de diferentes culturas e tradições. O calor do deserto contrasta com os verdes oásis, o mar, as montanhas ou cidades históricas. Um verdadeiro despertar dos sentidos. A planície costeira é interrompida a este pelas montanhas do Rif. Para sul ficam as montanhas do Atlas, para lá das quais se situam planícies árida da orla do Sahara. O clima dominante em Marrocos é o continental. Nas regiões costeiras predomina o mediterrânico, com temperaturas moderadas e humidade relativa, que pode variar entre os 7ºC e os 18ºC no Inverno, e no Verão entre os 19ºC e os 30ºC. A melhor época para visitar Marrocos será preferencialmente entre Dezembro e Março. Marraquexe considerada a segunda cidade Imperial mais antiga, tem nos seus souks, quarteirões de artesanato e a famosa praça Djemaa El Fna o coração da cidade. Possui alguns dos mais importantes edifícios arquitectónicos do Mundo islâmico reflectindo o seu passado glorioso. Na praça Djemaa El Fna, percorra de manhã o souk, com o seu artesanato e a venda de grande variedade de frutos secos e doces. Ao cair da note, deguste as especialidades locais nas tendas do mercado e observe encantadores de serpentes, contadores de histórias, que animam a praça central de Marraquexe. Conheça ainda, o Jardim de Menara, os Túmulos de Saadien, o Palácio da Baía, a Koutobia e o Museu de Dar Si Said."
+    },
+    {
+      "id": 4,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2016/02/cape-town-south-africa.jpg?w=1200&ssl=1",
+      "país": "África do Sul",
+      "cidade": "Cidade do Cabo",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+      "sobre": "A Cidade do Cabo é a capital legislativa do país, onde o Parlamento Nacional e muitos escritórios do governo estão localizados. Também é a capital da província. É a segunda cidade mais populosa do país, ficando atrás apenas de Joanesburgo. A Cidade do Cabo é famosa pelo seu porto natural, incluindo marcos bem conhecidos, como a montanha da Mesa e a baía da Mesa, sendo um dos mais populares destinos turísticos nacionais.."
+    }
+  ]
+}
