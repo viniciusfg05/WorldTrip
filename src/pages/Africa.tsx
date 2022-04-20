@@ -13,8 +13,9 @@ interface ContAfrica {
 export default function Africa() {
   useEffect(() => {
 
-    fetch('http://localhost:3000/africa') //rota possivelmente criariamos no futuro
-    .then(response => console.log(JSON.stringify(response)))
+    api.get('/africa') //rota possivelmente criariamos no futuro
+    .then(response => console.log(response))
+    .then(data => console.log(data)) //console .log nos dados)
 
   }, [])
 
