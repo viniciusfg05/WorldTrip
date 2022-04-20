@@ -22,9 +22,6 @@ const Home: NextPage = () => {
         
         <CompSwiper />
 
-        
-          
-
       </Flex>
 
     </>

@@ -1,15 +1,16 @@
 import { Box, Text, Image, LinkOverlay  as ChakraLink} from "@chakra-ui/react";
 
 interface SwiperProps {
+    href?: string;
     image: string;
     Continente: string;
     ContinentInfo: string;
   }
 
-export function ComponentSwiper({image, Continente, ContinentInfo}:SwiperProps) {
+export function ComponentSwiper({href, image, Continente, ContinentInfo}:SwiperProps) {
     return(
         <>  
-            <ChakraLink href="/africa">
+            <ChakraLink href={href}>
                 <Image src={image} alt='' filter='auto' brightness='40%'/>
             </ChakraLink>
             <Box pos="absolute" color="#fff" >

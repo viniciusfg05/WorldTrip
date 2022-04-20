@@ -19,7 +19,7 @@ interface ContinentProps {
 
 }
 
-export default function Africa() {
+export default function Europa() {
   const [continente, setContinente] = useState<ContinentProps[]>([]);
 
   useEffect(() => {

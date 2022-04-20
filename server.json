@@ -39,7 +39,15 @@
   "continente": [
     {
       "id": 1,
-      "Africa": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes."
+      "Africa": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+      "info": {
+        "QtdPaises": 54,
+        "infoPaís": "países",
+        "QtdLinguas": 2000,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
     }
   ],
   "africa": [
@@ -74,6 +82,49 @@
       "cidade": "Cidade do Cabo",
       "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
       "sobre": "A Cidade do Cabo é a capital legislativa do país, onde o Parlamento Nacional e muitos escritórios do governo estão localizados. Também é a capital da província. É a segunda cidade mais populosa do país, ficando atrás apenas de Joanesburgo. A Cidade do Cabo é famosa pelo seu porto natural, incluindo marcos bem conhecidos, como a montanha da Mesa e a baía da Mesa, sendo um dos mais populares destinos turísticos nacionais.."
+    }
+  ],
+  "Europa": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "país": "Reino Unido",
+      "cidade": "Londres",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
+      "sobre": "A terra da Rainha é a primeira da lista. Londres foi a cidade escolhida pelos turistas e é a mais visitada da Europa, de acordo com a Trackage. Além de muitas histórias envolvendo guerras e mais recentemente a Família Real, a cidade possui nada menos do que 200 museus e quatro áreas classificadas como Patrimônio Mundial da Humanidade, além do famosíssimo Big Ben, o Palácio de Westminster e a London Eye. Como se não bastasse, restaurantes de chefs estrelados e linhas de metrô que levam a qualquer canto da cidade, fazem de Londres a atual queridinha da Europa."
+    },
+    {
+      "id": 2,
+      "image": "https://i0.wp.com/blog.kennedyturismo.com.br/wp-content/uploads/2019/05/paris.jpg?resize=750%2C500&ssl=1",
+      "país": "França",
+      "cidade": "Paris",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/255px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png",
+      "sobre": "Conhecida como Cidade Luz, Paris é um sonho para muitos turistas. Quem nunca pensou em acordar vendo a esplendorosa Torre Eiffel? É por essas e outras que Paris ocupa o segundo lugar no ranking. Com museus que deixam qualquer um de queixo caído (o Louvre está lá para não nos deixar mentir) e uma culinária aclamada no mundo todo, Paris é daquelas cidades que você não pode deixar de conhecer."
+    },
+    {
+      "id": 3,
+      "image": "https://i0.wp.com/blog.kennedyturismo.com.br/wp-content/uploads/2019/05/istambul.jpg?resize=750%2C428&ssl=1",
+      "país": "Turquia",
+      "cidade": "Istambul",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/255px-Flag_of_Turkey.svg.png",
+      "sobre": "Diferente da grande maioria das cidades da Europa, Istambul é misto de modernidade e conservadorismo. Muito disto se deve por conta da sua localização: Istambul é a única cidade do mundo localizada entre dois continentes, uma parte da Europa e uma parte na Ásia. Por isso, é possível observar grande influência das culturas que passaram por lá: romanos, otomanos, gregos e turcos. Uma cidade diferente de tudo o que você já viu, sem dúvidas."
+
+    },
+    {
+      "id": 4,
+      "image": "https://i0.wp.com/blog.kennedyturismo.com.br/wp-content/uploads/2019/05/roma.jpg?resize=750%2C499&ssl=1",
+      "país": "Itália",
+      "cidade": "Roma",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png",
+      "sobre": "Como não se apaixonar pela cidade que foi o berço de toda a civilização? Em meio às ruínas do Coliseu e do Forum Romano estão monumentos de tirar o fôlego como a Fontana di Trevi e o Vaticano. Andar por ruas históricas e ainda poder usufruir de uma gastronomia incrível e vinhos deliciosos é ideal para qualquer turista, não é verdade?"
+    },
+    {
+      "id": 5,
+      "image": "",
+      "país": "Holanda",
+      "cidade": "Amsterdã",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",
+      "sobre": "Conhecida por ser liberal (onde a prostituição é uma profissão legalizada e o consumo de maconha é permitido nos coffeeshops), Amsterdã é muito mais do que uma cidade à frente do seu tempo. Com museus que guardam grandes riquezas, como o Van Gogh Museum, e paisagens que lembram uma cidade de brinquedo, a cidade é toda cortada por canais que conferem um charme a mais."
     }
   ]
 }
