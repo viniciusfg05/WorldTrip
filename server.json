@@ -36,10 +36,10 @@
       "info": "e mais ..."
     }
   ],
-  "continente": [
+  "AfricaInfos": [
     {
       "id": 1,
-      "Africa": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+      "continente": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
       "info": {
         "QtdPaises": 54,
         "infoPaís": "países",
@@ -84,6 +84,20 @@
       "sobre": "A Cidade do Cabo é a capital legislativa do país, onde o Parlamento Nacional e muitos escritórios do governo estão localizados. Também é a capital da província. É a segunda cidade mais populosa do país, ficando atrás apenas de Joanesburgo. A Cidade do Cabo é famosa pelo seu porto natural, incluindo marcos bem conhecidos, como a montanha da Mesa e a baía da Mesa, sendo um dos mais populares destinos turísticos nacionais.."
     }
   ],
+  "EuropaInfos": [
+    {
+      "id": 1,
+      "continente": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso,[1] e o mar Negro a sudeste.[2] A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
   "Europa": [
     {
       "id": 1,
@@ -120,7 +134,7 @@
     },
     {
       "id": 5,
-      "image": "",
+      "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "país": "Holanda",
       "cidade": "Amsterdã",
       "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",

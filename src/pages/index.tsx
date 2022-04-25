@@ -1,10 +1,12 @@
-import type { NextPage } from 'next'
+import type { GetServerSideProps, GetStaticProps, NextPage } from 'next'
 import { Text, Divider, Flex, Stack, Box  } from '@chakra-ui/react'
 import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
 import { TravelTypes } from '../components/TravelTypes'
 import { CompSwiper } from '../components/Swiper'
 import { Divide } from '../components/Divide/Index'
+import { useEffect, useState } from 'react'
+import { api } from '../services/api'
 
 const Home: NextPage = () => {
   return (
@@ -29,3 +31,49 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
+// interface AfricaProps {
+//   id: number;
+//   image: string;
+//   país: string;
+//   cidade: string;
+//   Bandeira: string;
+//   sobre: string;
+// }
+
+// interface apiDataProps {
+//   infoCity: string;
+// }
+
+// //gera a pagina static confirme as pessoas acessão
+// export const getStaticPaths = () => {
+//   return {
+//     paths: [],
+//     fallback: 'blocking'
+//   }
+// }
+
+// export const  getStaticProps: GetStaticProps = async () => {
+
+  
+//   const [paisesTheContinente, setPaisesTheContinente] = useState<AfricaProps[]>([]);
+
+//   useEffect(() => {
+//     async function loadContinet() {
+//       const response = await api.get<AfricaProps[]>("infoCity")
+//       const data = response.data.map(continet => ({
+//         ...continet,
+//       }))
+
+//       setPaisesTheContinente(data)
+//     }
+//     loadContinet()
+//   }, []);
+
+//   return {
+//     props: {
+//       paisesTheContinente
+//     },
+//     revalidate: 60 * 30, //30 min
+//   }
+// }

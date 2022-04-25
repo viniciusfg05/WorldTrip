@@ -39,7 +39,7 @@ export function CompSwiper() {
         </SwiperSlide>
 
         <SwiperSlide className={styles.swiperSlide}>
-          <ComponentSwiper href={"/europa"} image={"/Continentes/Europa.jpg"} Continente={"Europa"}
+          <ComponentSwiper href={"/europa"} image={"/Continentes/Europa.png"} Continente={"Europa"}
             ContinentInfo={"O continente mais antigo"}
           />
         </SwiperSlide>

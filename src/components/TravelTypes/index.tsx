@@ -1,5 +1,4 @@
-import { Box, Text, Flex, Image, SimpleGrid, Link as ChakraLink, useBoolean } from "@chakra-ui/react";
-import Link  from 'next/link'
+import { Flex, SimpleGrid } from "@chakra-ui/react";
 import { Links } from "./Links";
 
 

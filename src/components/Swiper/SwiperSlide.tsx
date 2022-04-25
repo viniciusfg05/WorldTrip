@@ -10,7 +10,7 @@ interface SwiperProps {
 export function ComponentSwiper({href, image, Continente, ContinentInfo}:SwiperProps) {
     return(
         <>  
-            <ChakraLink href={href}>
+            <ChakraLink href={href} >
                 <Image src={image} alt='' filter='auto' brightness='40%'/>
             </ChakraLink>
             <Box pos="absolute" color="#fff" >
