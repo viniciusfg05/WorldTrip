@@ -4,6 +4,7 @@
       "id": 1,
       "href": "/vidaNoturna",
       "icon": "/TravelTypes/drink.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
       "alt": "Vida notura - Imagem de um drink, simbolizando a vida noturna",
       "info": "Vida noturna"
     },
@@ -11,6 +12,7 @@
       "id": 2,
       "href": "/praia",
       "icon": "/TravelTypes/surf.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
       "alt": "Praia - Imagem de um prancha de surf, simbolizando a prai",
       "info": "Praia"
     },
@@ -18,6 +20,7 @@
       "id": 3,
       "href": "/classico",
       "icon": "/TravelTypes/museum.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
       "alt": "Clássico - Imagem de um museu, simbolizando a antiguidade",
       "info": "Clássico"
     },
@@ -25,6 +28,7 @@
       "id": 4,
       "href": "/moderno",
       "icon": "/TravelTypes/Predio.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
       "alt": "Moderno - Imagem de um predio, simbolizando a modernidade",
       "info": "Moderno"
     },
@@ -32,6 +36,7 @@
       "id": 5,
       "href": "/&mais",
       "icon": "/TravelTypes/earth.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
       "alt": "e mais - Imagem da terra",
       "info": "e mais ..."
     }

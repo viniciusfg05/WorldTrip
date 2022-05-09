@@ -3,12 +3,16 @@ import { ChakraProvider  } from '@chakra-ui/react'
 import { ChakraThemeConfig } from "../styles/ChakraThemeConfig"
 
 import '../styles/global.css'
+import { queryClient } from "../services/queryClient"
+import { QueryClientProvider } from "react-query"
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={ChakraThemeConfig}>
-      <Component {...pageProps} />
-    </ChakraProvider>
+    <QueryClientProvider client={queryClient}>
+      <ChakraProvider theme={ChakraThemeConfig}>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </QueryClientProvider>
   )
 }
 

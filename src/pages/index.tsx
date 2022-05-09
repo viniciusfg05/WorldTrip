@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <TravelTypes/>
         <Divide />
 
-        <Box cursor="disabled" color="gray.600" fontSize="36px" fontWeight="500" textAlign='center' mb="52px">
+        <Box cursor="disabled" color="gray.600" fontSize={{sm: "20px", md: "36px"}} fontWeight="500" textAlign='center' mb={{sm: "20px", md: "52px"}}>
           <Text>Vamos nessa?</Text>
           <Text>Então escolha seu continente</Text>
         </Box>
