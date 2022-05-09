@@ -37,33 +37,39 @@ export default function Africa() {
   return(
     <>
       <Header/>
-      <Flex as="div" w={{sm: "375px", md: "1440px"}} my="0" mx="auto" direction="column">
-        <Flex as="div" w={{sm: "100vw", md: "100%"}} h={{sm: "150px", md: "500px"}} justifyContent="center" >
-          <Image src='/Continentes/Africa.png' alt='mapa mundi centralizando a africa' />
-
-        </Flex >
-        {continente.map(rest => (
-          <Box w={{sm: "375px", md: "1440px"}}>
-            {/* <Box color="#fff" w="1160px" mx="auto">
-              <Text mt="-160px" fontWeight="bold" fontSize="48px" >África</Text>
-            </Box> */}
-            <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)"}} gap={70} w={{sm: "343px" ,md: "1160px"}} my="80px" mx="auto">
-
-                <Box w={{sm: "343px" ,md: "600px"}} h="211px">
-                  <Text fontSize={{sm: "16px" ,md: "24px"}} color="gray.600" lineHeight={{sm: "16px", md: "36px"}}>{rest.continente}</Text>
-                </Box>
-
-                <InfosAbount AfricaInfos={"AfricaInfos"}/>
-            </Grid>
-
-            <Box>
-                <Box>
-                  <Text fontSize="36px" fontWeight="500" color="gray.600" mb="40px" mt="80px">Cidades +100</Text>
-                </Box>
-
-                <InfosCity infoCity={"africa"}/>
-            </Box>
+      <Flex as="div" w={{sm: "100vw", md: "1440px"}} my="0" mx="auto" direction="column">
+        
+        <Flex as="div" overflow='hidden'>
+          <Box w={{sm: "100%", md: "100%"}} h={{sm: "100%", md: "500px"}} justifyContent="center" >
+            <Image src='/Continentes/Africa.png' alt='mapa mundi centralizando a africa' />
           </Box>
+        </Flex >
+
+        {continente.map(rest => (
+          <>
+            <Box mt={{sm: "-35px", md: "-150px"}} color="#fff" w="150px" ml={{sm: "20px", md: "160px"}} mb={{sm: "30px", md: "160px"}} >
+              <Text fontWeight="bold" fontSize={{sm: "18px", md: "48px"}} >África</Text>
+            </Box>
+            
+            <Box w={{sm: "100%", md: "1440px"}}>
+              <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)"}} gap={{sm: "25", md: "70"}} w={{sm: "360px" , md: "1160px"}} mx={{sm: "16px", md: "auto"}}>
+
+                  <Box w={{sm: "100%", md: "600px"}} h={{sm: "100%", md: "211px"}}>
+                    <Text fontSize={{sm: "16px" ,md: "24px"}} color="gray.600" lineHeight={{sm: "16px", md: "36px"}}>{rest.continente}</Text>
+                  </Box>
+
+                  <InfosAbount AfricaInfos={"AfricaInfos"}/>
+              </Grid>
+            </Box>
+
+            <Box mx={{sm: "16px"}}>
+              <Text fontSize={{sm: "26px", md: "36px"}} fontWeight="500" color="gray.600" mb={{sm: "20px", md: "40px"}} mt={{sm: "40px", md: "80px"}}>Cidades +100</Text>
+            </Box>  
+            
+            <Box mx={{sm: "auto"}}>
+              <InfosCity infoCity={"africa"}/>
+            </Box>
+          </>
           ))}
       </Flex>
     </>

@@ -17,8 +17,6 @@ import styles from './styles.module.css'
 import {Box, Text, Image, Divider} from "@chakra-ui/react";
 import { ComponentSwiper } from "./SwiperSlide";
 
-
-
 export function CompSwiper() {
   return (
     <>

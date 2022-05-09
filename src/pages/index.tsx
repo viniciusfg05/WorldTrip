@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <>
       <Header/>
       <Banner/>
-      <Flex as="main" direction="column" my="0" w="1440px" mx="auto">
+      <Flex as="main" direction="column" my="0" w={{sm: "375px", md: "1440px"}} mx="auto">
         <TravelTypes/>
         <Divide />
 

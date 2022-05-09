@@ -38,7 +38,7 @@ export function InfosAbount({AfricaInfos}: apiDataProps) {
   return(
     <>
       {continente.map(rest => (
-        <Grid templateColumns={{ sm: "repeat(3, 1fr)", md: "repeat(3, 165px)"}} gap={42} textAlign="center" alignItems="center">
+        <Grid templateColumns={{ sm: "repeat(3, 1fr)", md: "repeat(3, 165px)"}} gap={{md: "42"}} textAlign="center" alignItems="center">
           <Box lineHeight={{sm: "20px", md: "40px"}}>
             <Text color="yellow.500" fontWeight="600" fontSize={{sm: "24px", md: "48px"}}>{rest.info.QtdPaises}</Text>
             <Text fontSize={{sm: "18px", md: "24px"}} color="gray.600" fontWeight="600">{rest.info.infoPaís}</Text>

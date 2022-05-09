@@ -32,13 +32,15 @@ export function InfosCity({infoCity}: apiDataProps) {
   }, []);
   
   return(
-    <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)"}} h="279px" gap={45}>
+    <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(4, 1fr)"}} h="279px" gap={{sm: "15", md: "45"}} >
     {paisesTheContinente.map(result => (
-      <Box bg="white">
-        <Box h="210px" overflow='hidden' >
+      
+      <Box bg="white" w={{sm: "256px"}}>
+        <Box h={{sm: "176px", md: "210px"}} overflow='hidden' >
           <Image  src={result.image}  alt='' />
         </Box>
-        <Flex as="div"  p="16x" justifyContent="space-between" padding="24px" >
+
+        <Flex as="div"  p={{sm: "14px", md: "16x"}} justifyContent="space-between" padding="24px" >
           <Box>
             <Box display="flex" alignItems="center" >
               <Text fontSize="24px" fontWeight="600" color="gray.600" mr="10px" >{result.cidade}</Text>

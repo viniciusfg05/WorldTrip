@@ -37,9 +37,9 @@ export function Links() {
         <ChakraLink _hover={{
             textDecoration: "none"
         }}>
-            <Flex as="div" align="center" direction="column" w="160px" transform="scale(1.1)">
-                <Image src={result.icon} alt={result.alt} />
-                <Text fontSize="24" fontWeight="bold" mt="24px" color="gray.600">{result.info}</Text>
+            <Flex as="div" align="center" direction={{sm: "row", md: "column"}} w="160px" transform="scale(1.1)">
+                <Image w={{sm: "16px"}} src={result.icon} alt={result.alt} />
+                <Text fontSize={{sm: "14px", md: "24"}} fontWeight="bold" mt="24px" color="gray.600">{result.info}</Text>
             </Flex>
         </ChakraLink>
       </Link>

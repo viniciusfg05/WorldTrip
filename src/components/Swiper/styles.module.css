@@ -3,6 +3,12 @@
   height: 450px;
 }
 
+@media (max-width: 375px) {
+  .swiper {
+    width: 375px;
+  }
+}
+
 
 
 
