@@ -7,8 +7,17 @@ import { CompSwiper } from '../components/Swiper'
 import { Divide } from '../components/Divide/Index'
 import { useEffect, useState } from 'react'
 import { api } from '../services/api'
+import { useQuery } from 'react-query'
+
+
 
 const Home: NextPage = () => {
+  const { data, isLoading, error } = useQuery('AfricaInfos', async () => {
+    const africa = await api.get('AfricaInfos')
+
+    return africa
+})
+
   return (
     <>
       <Header/>

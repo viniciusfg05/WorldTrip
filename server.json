@@ -1,4 +1,14 @@
 {
+  "Banner": [
+    {
+      "id": 1,
+      "bannerDescktop": "/Banner.svg"
+    },
+    {
+      "id": 2,
+      "bannerDescktop": "/BannerMobile.svg"
+    }
+  ],
   "TravelTypes":[
     {
       "id": 1,
