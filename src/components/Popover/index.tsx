@@ -3,7 +3,7 @@ import { Popover, PopoverTrigger, PopoverContent, PopoverArrow, PopoverCloseButt
 
 interface PopoverProps{
   title: string;
-  about: string;
+  about?: string;
   pontinhos: string;
 }
 

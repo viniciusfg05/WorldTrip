@@ -38,7 +38,7 @@ export function Links() {
     ) : (
       <>
         {data.data.map(result => (
-        <Link href={result.href} passHref>
+        <Link key={result.href} href={result.href} passHref>
           <ChakraLink _hover={{
             textDecoration: "none"
           }}>

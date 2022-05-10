@@ -159,11 +159,11 @@
   "AsiaInfos": [
     {
       "id": 1,
-      "continente": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe, maxime debitis beatae nostrum nam magnam illo modi eius, quae esse laudantium provident, recusandae excepturi atque doloribus distinctio dolor ex.",
+      "continente": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial",
       "info": {
         "QtdPaises": 50,
         "infoPaís": "países",
-        "QtdLinguas": 24,
+        "QtdLinguas": 5,
         "infoLígua": "Líguas",
         "QtdCidades": 27,
         "infoCidades": "cidades 100+"
@@ -173,19 +173,27 @@
   "Asia": [
     {
       "id": 1,
-      "image": "https://source.unsplash.com/random",
-      "país": "Lorem",
-      "cidade": "Lorem",
-      "Bandeira": "",
-      "sobre": ""
+      "image": "https://www.actualidadviajes.com/wp-content/uploads/2011/12/plaza-tiananmen.jpeg.webp",
+      "país": "China",
+      "cidade": "Hong Kong",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+      "sobre": "Sem dúvida a China agora É o gigante do turismo asiático. Abriu-se ao mundo em termos econômicos e suas profundas transformações nos atraem e tornam alguns de seus destinos turísticos mais amigáveis ​​para os viajantes que não conhecem uma palavra do chinês.Estima-se que a cada ano a China recebe quase 58 milhões de visitantes estrangeirosSem contar as cidades de Hong Kong e Macau, que juntas recebem cerca de 30 milhões por ano. O certo é que o número de viajantes para a China continental e destinos menos conhecidos está aumentando."
     },
     {
       "id": 2,
-      "image": "",
-      "país": "",
-      "cidade": "",
-      "Bandeira": "",
-      "sobre": ""
+      "image": "https://www.actualidadviajes.com/wp-content/uploads/2011/12/kuala-lumpur.jpeg.webp",
+      "país": "Malásia",
+      "cidade": "Petronas",
+      "Bandeira": "https://i.pinimg.com/originals/33/61/8d/33618da61760ca1d81d3ddc90ecfd957.png",
+      "sobre": "Receba quase 25 milhões de visitantes por ano e a maioria entra no país por Kuala Lumpur, a cidade de Petronas, as torres gêmeas. Além da cidade moderna, com shoppings, bares, cafés e restaurantes de luxo, ela nos oferece muito mais.Nas ilhas da Malásia podemos descanso, mergulho, snorkeling, cruzeiro, pesca e banhos de sol em lugares paradisíacos. E as praias da Península Malaia, Langkawi ou Tioman, para não falar."
+    },
+    {
+      "id": 3,
+      "image": "https://www.actualidadviajes.com/wp-content/uploads/2011/12/playas-de-tailandia.jpeg.webp",
+      "país": "Tailândia",
+      "cidade": "Bangkok",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+      "sobre": "Para um mochileiro, a Tailândia é ótima porque embora o ar possa ser caro lá o custo de vida é muito barato. As ilhas e praias tropicais Eles são ótimos, parece que o verão aqui nunca acaba, mas a capital, Bangkok, é outro destino maravilhoso.Na verdade, Bangkok é a cidade mais visitada do mundo e todos os anos cerca de 16 milhões de visitantes o percorrem. Que tal? Beleza e preços baixos são sinônimos de sucesso turístico."
     }
   ],
   "AmericaInfos": [

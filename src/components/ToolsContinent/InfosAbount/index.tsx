@@ -23,11 +23,13 @@ interface apiDataProps{
 
 export function InfosAbount({AfricaInfos}: apiDataProps) {
   const { data, isLoading, error } = useQuery('AfricaInfosType', async () => {
-    const africa = await api.get<ContinentProps[]>(AfricaInfos)
+    const reponse = await api.get<ContinentProps[]>(AfricaInfos)
+    const data = reponse.data.map((data) => {
+      return data
+    })
 
-    return africa
+    return data
   })
-
 
   return(
     <>
@@ -37,7 +39,7 @@ export function InfosAbount({AfricaInfos}: apiDataProps) {
         <Text>Erro</Text>
       ): (
         <>
-          {data.data.map(rest => (
+          {data.map(rest => (
             <Grid key={rest.id} templateColumns={{ sm: "repeat(3, 1fr)", md: "repeat(3, 165px)"}} gap={{md: "42"}} textAlign="center"   alignItems="center">
               <Box lineHeight={{sm: "20px", md: "40px"}}>
                 <Text color="yellow.500" fontWeight="600" fontSize={{sm: "24px", md: "48px"}}>{rest.info.QtdPaises}</Text>

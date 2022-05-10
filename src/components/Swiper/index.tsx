@@ -42,6 +42,12 @@ export function CompSwiper() {
           />
         </SwiperSlide>
 
+        <SwiperSlide className={styles.swiperSlide}>
+          <ComponentSwiper href={"/asia"} image={"/Continentes/asia.jpg"} Continente={"Asia"}
+            ContinentInfo={"A Ásia é o maior dos continentes, tanto em área como em população."}
+          />
+        </SwiperSlide>
+
       </Swiper>
     </>
   );

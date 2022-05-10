@@ -20,9 +20,9 @@ interface ContinentProps {
 
 }
 
-export default function Europa() {
-  const { data, isLoading, error } = useQuery('EuropaInfos', async () => {
-    const response = await api.get<ContinentProps[]>('EuropaInfos')
+export default function Asia() {
+  const { data, isLoading, error } = useQuery('AsiaInfos', async () => {
+    const response = await api.get<ContinentProps[]>('AsiaInfos')
 
     return response
   }, {
@@ -46,24 +46,24 @@ export default function Europa() {
           
           <Flex as="div" overflow='hidden'>
             <Box w={{sm: "100%", md: "100%"}} h={{sm: "100%", md: "500px"}} justifyContent="center" >
-              <Image src='/Continentes/Europa.png' alt='Ponte de londres' />
+              <Image src='/Continentes/asia.jpg' alt='Ponte de londres' />
             </Box>
           </Flex >
 
           {data.data.map(rest => (
             <>
               <Box mt={{sm: "-35px", md: "-150px"}} color="#fff" w="150px" ml={{sm: "20px", md: "160px"}} mb={{sm: "30px", md: "160px"}} >
-                <Text w={{md: "180px"}} fontWeight="bold" fontSize={{sm: "18px", md: "48px"}} >Europa</Text>
+                <Text w={{md: "180px"}} fontWeight="bold" fontSize={{sm: "18px", md: "48px"}} >Asia</Text>
               </Box>
 
-              <Box w={{sm: "100%", md: "1440px"}} h={{md: "330px"}}>
+              <Box w={{sm: "100%", md: "1440px"}} h={{md: "180px"}}>
                 <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)"}} gap={{sm: "25", md: "70"}} w={{sm: "360px" , md: "1160px"}} mx={  {sm: "16px", md: "auto"}}>
 
                     <Box w={{sm: "100%", md: "600px"}} h={{sm: "100%", md: "211px"}}>
                       <Text fontSize={{sm: "16px" ,md: "24px"}} color="gray.600" lineHeight={{sm: "16px", md: "36px"}}>{rest.continente}</Text>
                     </Box>
 
-                    <InfosAbount AfricaInfos={"AfricaInfos"}/>
+                    <InfosAbount AfricaInfos={"AsiaInfos"}/>
                 </Grid>
               </Box>
 
@@ -72,7 +72,7 @@ export default function Europa() {
               </Box>  
 
               <Box mx={{sm: "auto"}}>
-                <InfosCity infoCity={"Europa"}/>
+                <InfosCity infoCity={"Asia"}/>
               </Box>
             </>
             ))}
