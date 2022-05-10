@@ -75,7 +75,7 @@ export default function Africa() {
               </Box>  
 
               <Box mx={{sm: "auto"}}>
-                <InfosCity infoCity={"africa"}/>
+                <InfosCity infoCity={"europa"}/>
               </Box>
             </>
             ))}

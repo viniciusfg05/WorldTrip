@@ -14,9 +14,10 @@ Aplicação com os cinco continente listando em cada um os paises mais visitados
 
 ## ✅ Features
 
-- [ ] Swiper - Banners de cada Continente
-- [ ] Fake Api - Listagem com dados reais
-- [ ] Outros
+- [x] Swiper - Banners de cada Continente
+- [x] Fake Api - Listagem com dados reais
+- [x] Integração com React Query
+- [x] Resposividade DeskTop e Mobile
 
 ## ✅ Tecnologias utilizadas
 
@@ -26,6 +27,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Chakra Ui](https://chakra-ui.com/)
 - [Swiper](https://swiperjs.com/react)
 - [Next JS](https://nextjs.org/)
+- [React Query](https://react-query.tanstack.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 ### Autor
 

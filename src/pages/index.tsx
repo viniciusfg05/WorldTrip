@@ -1,5 +1,5 @@
 import type { GetServerSideProps, GetStaticProps, NextPage } from 'next'
-import { Text, Divider, Flex, Stack, Box  } from '@chakra-ui/react'
+import { Text, Divider, Flex, Stack, Box, Spinner  } from '@chakra-ui/react'
 import { Header } from '../components/Header'
 import { Banner } from '../components/Banner'
 import { TravelTypes } from '../components/TravelTypes'
@@ -12,28 +12,33 @@ import { useQuery } from 'react-query'
 
 
 const Home: NextPage = () => {
-  const { data, isLoading, error } = useQuery('AfricaInfos', async () => {
-    const africa = await api.get('AfricaInfos')
-
-    return africa
-})
+  const { data, isLoading, error } = useQuery('TravelTypes')
 
   return (
     <>
       <Header/>
-      <Banner/>
-      <Flex as="main" direction="column" my="0" w={{sm: "375px", md: "1440px"}} mx="auto">
-        <TravelTypes/>
-        <Divide />
-
-        <Box cursor="disabled" color="gray.600" fontSize={{sm: "20px", md: "36px"}} fontWeight="500" textAlign='center' mb={{sm: "20px", md: "52px"}}>
-          <Text>Vamos nessa?</Text>
-          <Text>Então escolha seu continente</Text>
-        </Box>
-        
-        <CompSwiper />
-
-      </Flex>
+      { isLoading ? (
+        <Flex justifyContent="center" alignItems="center" h="100vh">
+          <Spinner w="200px" h="200px"/>
+        </Flex>
+        ): (
+        <>
+          <Banner/>
+          
+          <Flex as="main" direction="column" my="0" w={{sm: "375px", md: "1440px"}} mx="auto">
+            <TravelTypes/>
+            <Divide />
+          
+            <Box cursor="disabled" color="gray.600" fontSize={{sm: "20px", md: "36px"}} fontWeight="500" textAlign='center' mb={{sm: "20px", md: "52px"}  }>
+              <Text>Vamos nessa?</Text>
+              <Text>Então escolha seu continente</Text>
+            </Box>
+            
+            <CompSwiper />
+          
+          </Flex>
+        </>
+      )}
 
     </>
   )

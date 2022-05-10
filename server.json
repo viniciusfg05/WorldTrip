@@ -155,5 +155,133 @@
       "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",
       "sobre": "Conhecida por ser liberal (onde a prostituição é uma profissão legalizada e o consumo de maconha é permitido nos coffeeshops), Amsterdã é muito mais do que uma cidade à frente do seu tempo. Com museus que guardam grandes riquezas, como o Van Gogh Museum, e paisagens que lembram uma cidade de brinquedo, a cidade é toda cortada por canais que conferem um charme a mais."
     }
+  ],
+  "AsiaInfos": [
+    {
+      "id": 1,
+      "continente": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur saepe, maxime debitis beatae nostrum nam magnam illo modi eius, quae esse laudantium provident, recusandae excepturi atque doloribus distinctio dolor ex.",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Asia": [
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/random",
+      "país": "Lorem",
+      "cidade": "Lorem",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
+  ],
+  "AmericaInfos": [
+    {
+      "id": 1,
+      "continente": "",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "America": [
+    {
+      "id": 1,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
+  ],
+  "OceaniaInfos": [
+    {
+      "id": 1,
+      "continente": "",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Oceania": [
+    {
+      "id": 1,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
+  ],
+  "AntarticaInfos": [
+    {
+      "id": 1,
+      "continente": "",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Antartica": [
+    {
+      "id": 1,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
   ]
 }

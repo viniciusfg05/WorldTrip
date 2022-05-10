@@ -24,6 +24,8 @@ export function Links() {
     const response = await api.get<LinksProps[]>('TravelTypes')
 
     return response
+  }, {
+      staleTime: 1000 * 60 * 10 //10min
   })
 
   return(
