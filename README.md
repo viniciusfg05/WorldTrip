@@ -4,7 +4,7 @@
 
 ## Descrição do Projeto
 
-Aplicação desenvolvida durante o desafio do Curso do Ignite - Rocketseate, onde foi preciso criar um aplicação totalmente do zero de um site "Listagem dos países mais visitadados do mundo" separado pelos seus respectivos continentes e responsivo web e mobile. Os dados apresentados está sendo fornecido por uma fake API, feita por mim"
+Aplicação desenvolvida durante o desafio do Curso do Ignite - Rocketseate, onde foi preciso criar um aplicação totalmente do zero de um site "Listagem dos países mais visitados do mundo" separado pelos seus respectivos continentes e responsivo web e mobile. Os dados apresentados está sendo fornecido por uma fake API, feita por mim"
 
 [Layout do Figma](<https://www.figma.com/file/rj4LHsx3aqVUFDU6zOAVfd/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy)?node-id=14%3A135>)
 
