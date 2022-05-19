@@ -38,7 +38,7 @@ export default function Africa() {
       <Header/>
       { isLoading ? (
         <Flex justifyContent="center" alignItems="center" h="100vh">
-          <Spinner w="200px" h="200px"/>
+          <Spinner w={{sm: "50px", md: "200px"}} h={{sm: "50px", md: "200px"}}/>
         </Flex>
       ) : error ? (
         <Flex justifyContent="center">
