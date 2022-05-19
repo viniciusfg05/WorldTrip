@@ -4,7 +4,7 @@
 
 ## Descrição do Projeto
 
-Aplicação com os cinco continente listando em cada um os paises mais visitados do continente
+Aplicação desenvolvida durante o desafio do Curso do Ignite - Rocketseate, onde foi preciso criar um aplicação totalmente do zero de um site "Listagem dos países mais visitadados do mundo" separado pelos seus respectivos continentes e responsivo web e mobile. Os dados apresentados está sendo fornecido por uma fake API, feita por mim"
 
 [Layout do Figma](<https://www.figma.com/file/rj4LHsx3aqVUFDU6zOAVfd/Desafio-1-M%C3%B3dulo-4-ReactJS-(Copy)?node-id=14%3A135>)
 
@@ -29,6 +29,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Next JS](https://nextjs.org/)
 - [React Query](https://react-query.tanstack.com/)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
+
+### Instalação 
+
+- yarn dev
+- yarn server
 
 ### Autor
 
