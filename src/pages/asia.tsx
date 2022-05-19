@@ -63,7 +63,7 @@ export default function Asia() {
                       <Text fontSize={{sm: "16px" ,md: "24px"}} color="gray.600" lineHeight={{sm: "16px", md: "36px"}}>{rest.continente}</Text>
                     </Box>
 
-                    <InfosAbount AfricaInfos={"AsiaInfos"}/>
+                    <InfosAbount ContinentProps={"AsiaInfos"}/>
                 </Grid>
               </Box>
 
