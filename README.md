@@ -41,4 +41,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Vinicius Ferreira 👋🏽 Entre em contato!
 
-- [Linkedin](www.linkedin.com/in/viniciusfg05)
+- [Linkedin](http://www.linkedin.com/in/viniciusfg05)
