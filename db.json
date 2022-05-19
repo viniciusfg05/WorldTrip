@@ -1,0 +1,295 @@
+{
+  "Banner": [
+    {
+      "id": 1,
+      "bannerDescktop": "/Banner.svg"
+    },
+    {
+      "id": 2,
+      "bannerDescktop": "/BannerMobile.svg"
+    }
+  ],
+  "TravelTypes":[
+    {
+      "id": 1,
+      "href": "/vidaNoturna",
+      "icon": "/TravelTypes/drink.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
+      "alt": "Vida notura - Imagem de um drink, simbolizando a vida noturna",
+      "info": "Vida noturna"
+    },
+    {
+      "id": 2,
+      "href": "/praia",
+      "icon": "/TravelTypes/surf.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
+      "alt": "Praia - Imagem de um prancha de surf, simbolizando a prai",
+      "info": "Praia"
+    },
+    {
+      "id": 3,
+      "href": "/classico",
+      "icon": "/TravelTypes/museum.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
+      "alt": "Clássico - Imagem de um museu, simbolizando a antiguidade",
+      "info": "Clássico"
+    },
+    {
+      "id": 4,
+      "href": "/moderno",
+      "icon": "/TravelTypes/Predio.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
+      "alt": "Moderno - Imagem de um predio, simbolizando a modernidade",
+      "info": "Moderno"
+    },
+    {
+      "id": 5,
+      "href": "/&mais",
+      "icon": "/TravelTypes/earth.svg",
+      "iconMobile": "/TravelTypes/ellipse.svg",
+      "alt": "e mais - Imagem da terra",
+      "info": "e mais ..."
+    }
+  ],
+  "AfricaInfos": [
+    {
+      "id": 1,
+      "continente": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra com cerca de um bilhão de pessoas, representando cerca de um sétimo da população mundial, e 54 países independentes.",
+      "info": {
+        "QtdPaises": 54,
+        "infoPaís": "países",
+        "QtdLinguas": 2000,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "africa": [
+    {
+      "id": 1,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2016/03/Cidade-de-Kinshasa.jpg?w=1200&ssl=1",
+      "país": "Egipto",
+      "cidade": "Cairo",
+      "Bandeira": "https://www.estudopratico.com.br/wp-content/uploads/2017/04/significado-da-bandeira-egito-1200x675.jpg",
+      "sobre": "Egipto é um país do nordeste da África, numa região predominantemente desértica, que inclui também a península do Sinai, na Ásia, o que o torna um Estado transcontinental. Com uma área de cerca de 1 001 450 km², o Egipto limita-se a oeste com a Líbia, a sul com o Sudão e a leste com a Faixa de Gaza e Israel. O litoral norte é banhado pelo mar Mediterrâneo e o litoral oriental pelo mar Vermelho. A península do Sinai é banhada pelos golfos de Suez e de Acaba. A sua capital é a cidade do Cairo, a maior e mais populosa cidade do país e do continente africano. Visite o Museu Egípcio (um dos maiores museus do Mundo com mais de 100 000 peças expostas), as pirâmides, o mercado Khan-El-Khalili e diversos bazares."
+    },
+    {
+      "id": 2,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2016/03/Cidade-de-Kinshasa.jpg?w=1200&ssl=1",
+      "país": "República Democrática do Congo",
+      "cidade": "Kinshasa",
+      "Bandeira": "https://escudosybanderas.es/images/bandera-de-republica-democratica-del-congo.png",
+      "sobre": "A República Democrática do Congo (anteriormente Zaire) é um país africano. Recentemente passou a ser o segundo maior país da África em questão de área, atrás da Argélia, após a independência do Sudão do Sul em 2011. Confina a norte com a República Centro-Africana e com o Sudão do Sul, a leste com Uganda, Ruanda, Burundi e a Tanzânia, a leste e a sul com a Zâmbia, a sul com Angola e a oeste com o Oceano Atlântico, com o enclave de Cabinda e com o Congo. A capital e maior cidade é Kinshasa. No centro da cidade, erguem-se belos edifícios modernos, parques espaçosos e avenidas largas, que contrastam com os grandes bairros de características africanas à sua volta. Entre as atracções turísticas, avultam o colorido mercado principal, o Museu Nacional e a Academia de Belas-Artes."
+    },
+    {
+      "id": 3,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2015/12/Jemaa-El-fna.jpg?w=800&ssl=1",
+      "país": "Marrocos",
+      "cidade": "Marrakech",
+      "Bandeira": "https://www.futbox.com/img/v1/200/383/a96/ac9/058b184ff883efe0838c.png",
+      "sobre": "Marrocos um país de grandes contrastes, cativante, de diferentes culturas e tradições. O calor do deserto contrasta com os verdes oásis, o mar, as montanhas ou cidades históricas. Um verdadeiro despertar dos sentidos. A planície costeira é interrompida a este pelas montanhas do Rif. Para sul ficam as montanhas do Atlas, para lá das quais se situam planícies árida da orla do Sahara. O clima dominante em Marrocos é o continental. Nas regiões costeiras predomina o mediterrânico, com temperaturas moderadas e humidade relativa, que pode variar entre os 7ºC e os 18ºC no Inverno, e no Verão entre os 19ºC e os 30ºC. A melhor época para visitar Marrocos será preferencialmente entre Dezembro e Março. Marraquexe considerada a segunda cidade Imperial mais antiga, tem nos seus souks, quarteirões de artesanato e a famosa praça Djemaa El Fna o coração da cidade. Possui alguns dos mais importantes edifícios arquitectónicos do Mundo islâmico reflectindo o seu passado glorioso. Na praça Djemaa El Fna, percorra de manhã o souk, com o seu artesanato e a venda de grande variedade de frutos secos e doces. Ao cair da note, deguste as especialidades locais nas tendas do mercado e observe encantadores de serpentes, contadores de histórias, que animam a praça central de Marraquexe. Conheça ainda, o Jardim de Menara, os Túmulos de Saadien, o Palácio da Baía, a Koutobia e o Museu de Dar Si Said."
+    },
+    {
+      "id": 4,
+      "image": "https://i0.wp.com/amantesdeviagens.com/wp-content/uploads/2016/02/cape-town-south-africa.jpg?w=1200&ssl=1",
+      "país": "África do Sul",
+      "cidade": "Cidade do Cabo",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png",
+      "sobre": "A Cidade do Cabo é a capital legislativa do país, onde o Parlamento Nacional e muitos escritórios do governo estão localizados. Também é a capital da província. É a segunda cidade mais populosa do país, ficando atrás apenas de Joanesburgo. A Cidade do Cabo é famosa pelo seu porto natural, incluindo marcos bem conhecidos, como a montanha da Mesa e a baía da Mesa, sendo um dos mais populares destinos turísticos nacionais.."
+    }
+  ],
+  "EuropaInfos": [
+    {
+      "id": 1,
+      "continente": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso,[1] e o mar Negro a sudeste.[2] A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Europa": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "país": "Reino Unido",
+      "cidade": "Londres",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/255px-Flag_of_the_United_Kingdom_%283-5%29.svg.png",
+      "sobre": "A terra da Rainha é a primeira da lista. Londres foi a cidade escolhida pelos turistas e é a mais visitada da Europa, de acordo com a Trackage. Além de muitas histórias envolvendo guerras e mais recentemente a Família Real, a cidade possui nada menos do que 200 museus e quatro áreas classificadas como Patrimônio Mundial da Humanidade, além do famosíssimo Big Ben, o Palácio de Westminster e a London Eye. Como se não bastasse, restaurantes de chefs estrelados e linhas de metrô que levam a qualquer canto da cidade, fazem de Londres a atual queridinha da Europa."
+    },
+    {
+      "id": 2,
+      "image": "https://i0.wp.com/blog.kennedyturismo.com.br/wp-content/uploads/2019/05/paris.jpg?resize=750%2C500&ssl=1",
+      "país": "França",
+      "cidade": "Paris",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/255px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png",
+      "sobre": "Conhecida como Cidade Luz, Paris é um sonho para muitos turistas. Quem nunca pensou em acordar vendo a esplendorosa Torre Eiffel? É por essas e outras que Paris ocupa o segundo lugar no ranking. Com museus que deixam qualquer um de queixo caído (o Louvre está lá para não nos deixar mentir) e uma culinária aclamada no mundo todo, Paris é daquelas cidades que você não pode deixar de conhecer."
+    },
+    {
+      "id": 3,
+      "image": "https://i0.wp.com/blog.kennedyturismo.com.br/wp-content/uploads/2019/05/istambul.jpg?resize=750%2C428&ssl=1",
+      "país": "Turquia",
+      "cidade": "Istambul",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/255px-Flag_of_Turkey.svg.png",
+      "sobre": "Diferente da grande maioria das cidades da Europa, Istambul é misto de modernidade e conservadorismo. Muito disto se deve por conta da sua localização: Istambul é a única cidade do mundo localizada entre dois continentes, uma parte da Europa e uma parte na Ásia. Por isso, é possível observar grande influência das culturas que passaram por lá: romanos, otomanos, gregos e turcos. Uma cidade diferente de tudo o que você já viu, sem dúvidas."
+
+    },
+    {
+      "id": 4,
+      "image": "https://i0.wp.com/blog.kennedyturismo.com.br/wp-content/uploads/2019/05/roma.jpg?resize=750%2C499&ssl=1",
+      "país": "Itália",
+      "cidade": "Roma",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png",
+      "sobre": "Como não se apaixonar pela cidade que foi o berço de toda a civilização? Em meio às ruínas do Coliseu e do Forum Romano estão monumentos de tirar o fôlego como a Fontana di Trevi e o Vaticano. Andar por ruas históricas e ainda poder usufruir de uma gastronomia incrível e vinhos deliciosos é ideal para qualquer turista, não é verdade?"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "país": "Holanda",
+      "cidade": "Amsterdã",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/255px-Flag_of_the_Netherlands.svg.png",
+      "sobre": "Conhecida por ser liberal (onde a prostituição é uma profissão legalizada e o consumo de maconha é permitido nos coffeeshops), Amsterdã é muito mais do que uma cidade à frente do seu tempo. Com museus que guardam grandes riquezas, como o Van Gogh Museum, e paisagens que lembram uma cidade de brinquedo, a cidade é toda cortada por canais que conferem um charme a mais."
+    }
+  ],
+  "AsiaInfos": [
+    {
+      "id": 1,
+      "continente": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 5,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Asia": [
+    {
+      "id": 1,
+      "image": "https://www.actualidadviajes.com/wp-content/uploads/2011/12/plaza-tiananmen.jpeg.webp",
+      "país": "China",
+      "cidade": "Hong Kong",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/1280px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+      "sobre": "Sem dúvida a China agora É o gigante do turismo asiático. Abriu-se ao mundo em termos econômicos e suas profundas transformações nos atraem e tornam alguns de seus destinos turísticos mais amigáveis ​​para os viajantes que não conhecem uma palavra do chinês.Estima-se que a cada ano a China recebe quase 58 milhões de visitantes estrangeirosSem contar as cidades de Hong Kong e Macau, que juntas recebem cerca de 30 milhões por ano. O certo é que o número de viajantes para a China continental e destinos menos conhecidos está aumentando."
+    },
+    {
+      "id": 2,
+      "image": "https://www.actualidadviajes.com/wp-content/uploads/2011/12/kuala-lumpur.jpeg.webp",
+      "país": "Malásia",
+      "cidade": "Petronas",
+      "Bandeira": "https://i.pinimg.com/originals/33/61/8d/33618da61760ca1d81d3ddc90ecfd957.png",
+      "sobre": "Receba quase 25 milhões de visitantes por ano e a maioria entra no país por Kuala Lumpur, a cidade de Petronas, as torres gêmeas. Além da cidade moderna, com shoppings, bares, cafés e restaurantes de luxo, ela nos oferece muito mais.Nas ilhas da Malásia podemos descanso, mergulho, snorkeling, cruzeiro, pesca e banhos de sol em lugares paradisíacos. E as praias da Península Malaia, Langkawi ou Tioman, para não falar."
+    },
+    {
+      "id": 3,
+      "image": "https://www.actualidadviajes.com/wp-content/uploads/2011/12/playas-de-tailandia.jpeg.webp",
+      "país": "Tailândia",
+      "cidade": "Bangkok",
+      "Bandeira": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+      "sobre": "Para um mochileiro, a Tailândia é ótima porque embora o ar possa ser caro lá o custo de vida é muito barato. As ilhas e praias tropicais Eles são ótimos, parece que o verão aqui nunca acaba, mas a capital, Bangkok, é outro destino maravilhoso.Na verdade, Bangkok é a cidade mais visitada do mundo e todos os anos cerca de 16 milhões de visitantes o percorrem. Que tal? Beleza e preços baixos são sinônimos de sucesso turístico."
+    }
+  ],
+  "AmericaInfos": [
+    {
+      "id": 1,
+      "continente": "",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "America": [
+    {
+      "id": 1,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
+  ],
+  "OceaniaInfos": [
+    {
+      "id": 1,
+      "continente": "",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Oceania": [
+    {
+      "id": 1,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
+  ],
+  "AntarticaInfos": [
+    {
+      "id": 1,
+      "continente": "",
+      "info": {
+        "QtdPaises": 50,
+        "infoPaís": "países",
+        "QtdLinguas": 24,
+        "infoLígua": "Líguas",
+        "QtdCidades": 27,
+        "infoCidades": "cidades 100+"
+      }
+    }
+  ],
+  "Antartica": [
+    {
+      "id": 1,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    },
+    {
+      "id": 2,
+      "image": "",
+      "país": "",
+      "cidade": "",
+      "Bandeira": "",
+      "sobre": ""
+    }
+  ]
+}
