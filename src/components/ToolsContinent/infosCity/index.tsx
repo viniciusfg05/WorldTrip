@@ -4,7 +4,7 @@ import { useQuery } from "react-query";
 import { api } from "../../../services/api";
 import { PopoverComponents } from "../../Popover";
 
-interface AfricaProps {
+interface ContinentProps {
   id: number;
   image: string;
   país: string;
@@ -19,7 +19,7 @@ interface apiDataProps {
 
 export function InfosCity({infoCity}: apiDataProps) {
   const { data, isLoading, error } = useQuery('infoCity', async () => {
-    const response = await api.get<AfricaProps[]>(infoCity)
+    const response = await api.get<ContinentProps[]>(infoCity)
 
     return response
   })

@@ -35,7 +35,7 @@ export default function Asia() {
       <Header/>
       { isLoading ? (
         <Flex justifyContent="center" alignItems="center" h="100vh">
-          <Spinner w="200px" h="200px"/>
+          <Spinner w={{sm: "50px", md: "200px"}} h={{sm: "50px", md: "200px"}}/>
         </Flex>
       ) : error ? (
         <Flex justifyContent="center">
@@ -63,7 +63,7 @@ export default function Asia() {
                       <Text fontSize={{sm: "16px" ,md: "24px"}} color="gray.600" lineHeight={{sm: "16px", md: "36px"}}>{rest.continente}</Text>
                     </Box>
 
-                    <InfosAbount AfricaInfos={"AsiaInfos"}/>
+                    <InfosAbount ContinentProps={"AsiaInfos"}/>
                 </Grid>
               </Box>
 

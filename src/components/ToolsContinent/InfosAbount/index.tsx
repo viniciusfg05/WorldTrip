@@ -18,12 +18,12 @@ interface ContinentProps {
 }
 
 interface apiDataProps{
-  AfricaInfos?: string;
+  ContinentProps?: string;
 }
 
-export function InfosAbount({AfricaInfos}: apiDataProps) {
+export function InfosAbount({ContinentProps}: apiDataProps) {
   const { data, isLoading, error } = useQuery('AfricaInfosType', async () => {
-    const reponse = await api.get<ContinentProps[]>(AfricaInfos)
+    const reponse = await api.get<ContinentProps[]>(ContinentProps)
     const data = reponse.data.map((data) => {
       return data
     })
