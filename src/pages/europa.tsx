@@ -57,7 +57,7 @@ export default function Europa() {
               </Box>
 
               <Box w={{sm: "100%", md: "1440px"}} h={{md: "330px"}}>
-                <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)"}} gap={{sm: "25", md: "70"}} w={{sm: "360px" , md: "1160px"}} mx={  {sm: "16px", md: "auto"}}>
+                <Grid templateColumns={{ sm: "repeat(1, 1fr)", md: "repeat(2, 1fr)"}} gap={{sm: "25", md: "70"}} w={{sm: "340px" , md: "1160px"}} mx={  {sm: "auto", md: "auto"}}>
 
                     <Box w={{sm: "100%", md: "600px"}} h={{sm: "100%", md: "211px"}}>
                       <Text fontSize={{sm: "16px" ,md: "24px"}} color="gray.600" lineHeight={{sm: "16px", md: "36px"}}>{rest.continente}</Text>
